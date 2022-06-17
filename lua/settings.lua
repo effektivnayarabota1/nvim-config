@@ -86,14 +86,7 @@ let g:startify_custom_header=[
 \ ]
 ]]
 
--- NVIM-TREE
---require'nvim-tree'.setup {
-	-- open_on_setup = true,
-	-- open_on_setup_file = true,
--- }
-
 -- COC
-
 vim.cmd [[
 " Set internal encoding of vim, not needed on neovim, since coc.nvim using some
 " unicode characters in the file autoload/float.vim
